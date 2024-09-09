@@ -1,0 +1,123 @@
+ls
+ls -a
+ssh-keygen -t ed25519 
+ls
+cd .ssh
+ls
+car id_ed25519.pub
+cat id_ed25519.pub
+ls
+cd ..
+ls
+cd repogit
+ls
+git clone [200~
+~git clone git@github.com:DepaoloJuan/depaolo_vagrant.git
+ls
+git clone git@github.com:DepaoloJuan/depaolo_vagrant.git
+ls
+cd depaolo_vagrant/
+ls
+history > historial2.txt
+ls
+git status
+git add .
+git status
+git commit -m "segundo commit"
+git push
+git status
+ls
+cd ..
+ls
+cd ..
+ls
+cd repogit/
+ls
+bc <<< 2 * 5
+bc <<< 2*5
+cd ..
+ls
+cd ..
+ls
+cd ubuntu/
+cd vagrant/
+ls
+cat / proc/ cpuinfo
+cd proc
+ls
+ls - la
+ls - al
+grep -i proce
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep proce
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | grep name
+ls
+cd repogit/
+ls
+git clone git@github.com:DepaoloJuan/TP_AySO.git
+cd TP_AySO/
+ls -l
+ls -i
+cat /etc/os-release 
+grep HOME_URL
+cd /etc/os-release 
+ls
+cd /etc/os-release 
+cat /etc/os-release 
+cat /etc/os-release  | grep HOME_URL
+man grep
+grep HOME_URLA /etc/os-release 
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git status
+gid add
+git status
+git add
+git add datos_usuario.txt 
+git status
+cat datos_usuario.txt 
+cpuinfo
+head/proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+head/proc/cpuinfo
+head /proc/cpuinfo | grep "model
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+grep -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada -t"." -k7
+grep -v nologin /etc/passwd | sort .t":" -k7 > lista_ordenada 
+grep -v nologin /etc/passwd | sort .t":"-k7 > lista_ordenada 
+sort lista_ordenada -t"." -k7
+cat lista_ordenada 
+grep -v nologin /etc/passwd 
+grep -v nologin /etc/passwd | sort -t":"-k7 > lista_ordenada 
+cat lista_ordenada 
+grep -v nologin /etc/passwd | sort -t":"-k7 > lista_ordenada 
+grep -v nologin /etc/passwd | sort -t":" > lista_ordenada 
+cat lista_ordenada 
+git status
+git add datos_usuario.txt 
+git add lista_ordenada 
+git status
+apopos "dump traffic"
+tcpdumo
+tcpdump
+apropos
+apropos dump traffic
+apropos dump traffic > comando_dump_net
+echo apropos dump traffic >> comando_dump_net
+ls
+git add comando_dump_net 
+cat <<FIN>> README.md
+Alumno: Depaolo, Juan Manuel
+Division: 113
+Turno: M
+FIN
+
+git add README.md 
+cd ..
+history -a $HOME/.bash_history
